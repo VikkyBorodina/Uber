@@ -34,7 +34,7 @@ nav {
 
 .subheader .subheader_logo {
   display: block;
-  min-width: 100%;
+  max-width: 100%;
   margin-top: 16px;
 }
 
