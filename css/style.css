@@ -47,17 +47,17 @@ nav {
 }
 
 .subheader .subheader_call {
+  margin-top: 19px;
   line-height: 14px;
   font-weight: 300;
   font-size: 12px;
   display: flex;
   text-align: right;
   color: #ffffff;
-  margin-top: 24px;
 }
 
 .subheader .subheader_phone {
-  line-height: 34px;
+  line-height: 30px;
   font-weight: 400;
   font-size: 22px;
   text-align: right;
@@ -65,4 +65,19 @@ nav {
   text-decoration: none;
   color: #ffffff;
   margin-top: 8px;
+}
+
+.subheader .subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
