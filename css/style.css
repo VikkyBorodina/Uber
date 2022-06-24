@@ -147,7 +147,7 @@ nav {
 }
 
 .benefits {
-  padding: 18px 0 0 0;
+  padding: 18px 0 65px 0;
 }
 
 .label {
@@ -172,9 +172,17 @@ nav {
   text-align: center;
 }
 
-.benefit_round {
-  min-width: 116px;
-  min-height: 116px;
+.benefits .benefit_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.benefits .benefit_item .benefit_round {
+  margin-right: 25px;
+  width: 116px;
+  height: 116px;
   border-radius: 100%;
   background: #1eacc7;
   display: flex;
@@ -182,8 +190,20 @@ nav {
   align-items: center;
 }
 
-.benefit_item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.benefits .benefit_item .benefit_descr {
+  width: 371px;
+}
+
+.benefits .benefit_item .benefit_descr .benefit_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.benefits .benefit_item .benefit_descr .benefit_text {
+  color: #202020;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
 }
