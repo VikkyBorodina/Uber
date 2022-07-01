@@ -1,3 +1,8 @@
+$base-color: #1EACC7
+$white-color: #FFFFFF
+$black-color: #000000
+$orange-color: #FF5656
+
 *
     font-family: "Roboto", sans-serif
 
@@ -22,11 +27,11 @@ nav
 .menu_link
     font-weight: 300
     font-size: 15px
-    color: #ffffff
+    color: $white-color
     text-decoration: none
 
 .menu_item
-    border-right: 2px dotted #000
+    border-right: 2px dotted $black-color
     padding-right: 28px
 
 .subheader
@@ -46,7 +51,7 @@ nav
     opacity: 0.5
     font-weight: 100
     font-size: 13px
-    color: #ffffff
+    color: $white-color
 
 .subheader_call
     margin-top: 19px
@@ -55,7 +60,7 @@ nav
     font-size: 12px
     display: flex
     text-align: right
-    color: #ffffff
+    color: $white-color
 
 .subheader_phone
     line-height: 30px
@@ -64,7 +69,7 @@ nav
     text-align: right
     text-transform: uppercase
     text-decoration: none
-    color: #ffffff
+    color: $white-color
     margin-top: 8px
 
 .subheader_btn
@@ -78,7 +83,7 @@ nav
     font-weight: 400
     font-size: 14px
     text-transform: uppercase
-    color: #ffffff
+    color: $white-color
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
 
 .promo
@@ -90,7 +95,7 @@ nav
     font-weight: 700
     font-size: 60px
     text-transform: uppercase
-    color: #ffffff
+    color: $white-color
     line-height: 60px
     margin: 0
     text-align: center
@@ -99,7 +104,7 @@ nav
     font-weight: 700
     font-size: 36px
     text-transform: uppercase
-    color: #ffffff
+    color: $white-color
     line-height: 36px
     margin: 0
     margin-top: 22px
@@ -110,7 +115,7 @@ nav
     font-size: 18px
     line-height: 24px
     text-align: center
-    color: #ffffff
+    color: $white-color
     margin-top: 23px
 
 .promo_btn
@@ -126,7 +131,7 @@ nav
     font-size: 18px
     text-align: center
     text-transform: uppercase
-    color: #ffffff
+    color: $white-color
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
 
 .benefits
@@ -138,15 +143,15 @@ nav
     height: 24px
     width: 112px
     padding: 5px 12px
-    background-color: #000000
-    color: #ffffff
+    background-color: $black-color
+    color: $white-color
     font-size: 11px
     font-weight: 300
     text-transform: uppercase
     text-align: center
     z-index: 2
     &_white
-        background-color: #fff
+        background-color: $white-color
         color: #070716
 
 .title
@@ -160,7 +165,7 @@ nav
     text-align: center
     z-index: 2
     &_white
-        color: #fff
+        color: $white-color
 
 .subtitle
     position: relative
@@ -171,7 +176,7 @@ nav
     text-align: center
     z-index: 2
     &_white
-        color: #fff
+        color: $white-color
 
 .benefits .benefit_item
     display: flex
@@ -184,7 +189,7 @@ nav
     width: 116px
     height: 116px
     border-radius: 100%
-    background: #1eacc7
+    background: $base-color
     display: flex
     justify-content: center
     align-items: center
@@ -194,7 +199,7 @@ nav
 
     .benefit_subtitle
         line-height: 21px
-        color: #1eacc7
+        color: $base-color
         font-size: 17px
         font-weight: 400
 
@@ -234,7 +239,7 @@ nav
             font-size: 24px
             line-height: 31px
             text-transform: uppercase
-            color: #FFFFFF
+            color: $white-color
             text-align: center
         &_plus
             display: flex
@@ -246,7 +251,7 @@ nav
             transform: translate(-50%)
             width: 26px
             height: 26px
-            background-color: #000
+            background-color: $black-color
             margin: 0 auto
             border-radius: 100%
             cursor: pointer
