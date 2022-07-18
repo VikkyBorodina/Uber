@@ -17,9 +17,8 @@
             width: 300px
             height: 260px
     .choice
-        padding: 46px 0 80px
-        &_img
-            margin: 44px auto 0 auto
+        padding: 55px 0
+        min-height: 840px
 
 @media (max-width: 991px)
     .menu
@@ -65,12 +64,9 @@
             &_plus
                 bottom: 15px
     .choice
-        padding: 36px 0 40px
-        min-height: 696px
+        min-height: 800px
         &_img
-            margin: 44px auto 0 auto
-        &_black
-            height: 399px
+            width: 100%
 
 @media (max-width: 767px)
     .menu
@@ -148,6 +144,9 @@
             font-size: 24px
         &_plus
             bottom: 35px
+    .choice
+        min-height: 600px
+        padding: 40px 0
 
 @media (max-width: 575px)
     nav
@@ -169,8 +168,10 @@
         &_btn
             width: 110px
             height: 22px
-            font-size: 10px
+            font-size: 9px
             margin-top: 6px
+            &:hover
+                background-image: linear-gradient(to top, $base-color 0%, #4ce2ff 100%)
     .promo
         min-height: 400px
         padding: 93px 0 35px 0
@@ -211,26 +212,30 @@
         margin-top: 9px
         font-size: 14px
     .mobile
-        padding: 25px 0 43px 0
+        padding: 20px 0 40px 0
+        .row
+            margin-top: 30px
         &_item
-            width: 290px
             height: 254px
-            margin-bottom: 30px
-            padding-top: 80px
+            padding: 81px 40px 0 40px
             &_subtitle
                 font-size: 18px
+                line-height: 31px
             &_plus
-                bottom: 21px
-                width: 29px
-                height: 29px
+                bottom: 28px
+                &:hover
+                    &:before, &:after
+                        background-color: $base-color
     .choice
+        padding: 25px 0 31px 0
+        min-height: 393px
+        background: $black-color
         &_img
-            width: 300px
-            height: 190px
-            position: relative
-            margin: 35px 17px 23px 5px
+            margin-top: 35px
         &_black
-            width: 322px
-            height: 393px
+            display: none
+        &_descr
+            margin-top: 23px
+            color: $white-color
         .title, .subtitle
             display: none
